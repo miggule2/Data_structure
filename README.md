@@ -31,4 +31,5 @@ ex) 배열, 스택, 큐, 연결 리스트(linked list)
 * 같은 타입의 여러 데이터들이 서로 인접한 메모리 공간에 저장
 * 위의 특성으로 비교적 짧은 시간에 많은 양의 데이터 처리 가능
 * 배열에는 검색, 정렬, 삽입, 탐색, 반전, 삭제와 같은 다양한 작업을 수행할 수 있음
+
 ![배열](https://media.geeksforgeeks.org/wp-content/uploads/Arrays-1.png)
