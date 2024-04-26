@@ -64,6 +64,7 @@ ex) 배열, 스택, 큐, 연결 리스트(linked list)
 * 요소 접근 (배열 순회)  :  접근은 배열 내에서 n번쨰 인덱스에 해당하는 값을 찾아내는 연산이고, 순회는 배열의 모든 요소를 방문하는 것을 뜻한다.
 * 삽입, 삭제 : 배열의 처음, 중간, 끝에 요소를 삽입 및 삭제될 수 있으며, 위치에 따라 시간복잡도는 달라진다.
 * 검색 : 순차검색의 경우 원하는 값을 찾기 위해 배열을 하나하나 확인해야한다.
+
 ( [참고링크](https://www.geeksforgeeks.org/introduction-to-arrays-data-structure-and-algorithm-tutorials/), [참고링크](https://moonsu.tistory.com/58) )
 
 
