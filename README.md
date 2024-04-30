@@ -67,7 +67,22 @@ ex) 배열, 스택, 큐, 연결 리스트(linked list)
 
 ( [참고링크](https://www.geeksforgeeks.org/introduction-to-arrays-data-structure-and-algorithm-tutorials/), [참고링크](https://moonsu.tistory.com/58) )
 
+## 2. Linked List(연결 리스트)
+* 연결 리스트는 노드 체인처럼 보이는 선형 데이터 구조
+* 각 노드에는 __데이터 필드__ 와 다음 노드에 대한 __참조(링크)__ 가 포함되어있음.
+* 배열과 달리 연결된 다음 요소는 인접한 위치에 저장되지 않음.
 
+### Linked List(연결 리스트)의 특성
+* __노드__ : 연결 리스트의 각 요소는 두 가지 구성 요소를 가짐.
+  * __데이터__ : 요소와 관련된 실제 데이터
+  * __다음 포인터(링크)__ : 연결 리스트의 다음 노드에 대한 포인터 혹은 참조
+* __head__ : 연결 리스트의 첫 번째 노드를 "head(헤드)"라고 지칭. 순회를 위한 시작점.
+* __tail__ : 연결 리스트의 마지막 노드를 "tail(꼬리)"라고 지칭.
+
+### Linked List(연결 리스트의) 유형
+* __Singly Linked List (단일 연결 리스트)__ : 연결 리스트에서 모든 노드는 다음 노드의 주소 또는 참조를 저장하고 마지막 노드는 다음 주소 또는 참조를 NULL값을 가짐.
+
+![단일 연결 리스트](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200922124319/Singly-Linked-List1.png )
   
 
 
