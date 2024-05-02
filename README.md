@@ -28,7 +28,7 @@ ex) 배열, 스택, 큐, 연결 리스트(linked list)
 * * *
 # linear data structure (선형 자료구조)
 
-### linear data structure (선형 자료구조)의 특성 
+#### linear data structure (선형 자료구조)의 특성 
 * __순차적 구성__ : 선형 자료구조에서 데이터 요소는 순차적으로 나열되고, 각 요소는 선행 요소(첫 번째 요소 제외) 와 고유한 후속 요소 (마지막 요소 제외)가 있다.
 * __고정 또는 동적인 크기__ : 선형 자료구조는 고정된 또는 동적인 크기를 가질 수 있다. ( ex : Array(배열) -> 정적 자료구조 / 연결 리스트, 스택, 큐 -> 요소가 추가되거나 제거될 때 동적으로 크기 조절 가능 )
 * __효율적인 접근__ : 선형 자료구조 내의 요소에 접근하는 건 일반적인 경우에 효율적이다. ( ex : Array(배열)은 인덱스를 사용해서 요소에 접근할 수 있음 )
@@ -41,13 +41,13 @@ ex) 배열, 스택, 큐, 연결 리스트(linked list)
 
 ![배열](https://media.geeksforgeeks.org/wp-content/uploads/Arrays-1.png)
 
-### Array(배열)의 특성
+#### Array(배열)의 특성
 * 배열은 index 기반 자료구조로, index를 이용해서 각 요소를 쉽고 빠르게 찾을 수 있음.
 * 동일한 타입의 데이터를 여러 개 저장하는 경우에 효율적으로 활용 가능
 * 2차원 배열같은 고차원 배열에 저장하여 복잡한 데이터 구조를 처리할 수 있음.
 * 스택, 큐, 힙, 해시 테이블 등과 같은 다른 자료구조를 구현하는 데에도 사용
 
-### Array(배열) 유형 :
+#### Array(배열) 유형 :
 * __1차원 배열__ : 동일한 데이터 타입의 요소로 구성된 배열의 가장 간단한 형태의 배열. 단일 인덱스를 사용해서 접근
 
 ![1차원배열](https://media.geeksforgeeks.org/wp-content/uploads/20230922132730/1Darray.png)
@@ -60,7 +60,7 @@ ex) 배열, 스택, 큐, 연결 리스트(linked list)
 
 ![다차원배열](https://media.geeksforgeeks.org/wp-content/uploads/3D-array.jpg)
 
-### Array(배열)의 operations(작업)
+#### Array(배열)의 operations(작업)
 * 요소 접근 (배열 순회)  :  접근은 배열 내에서 n번쨰 인덱스에 해당하는 값을 찾아내는 연산이고, 순회는 배열의 모든 요소를 방문하는 것을 뜻한다.
 * 삽입, 삭제 : 배열의 처음, 중간, 끝에 요소를 삽입 및 삭제될 수 있으며, 위치에 따라 시간복잡도는 달라진다.
 * 검색 : 순차검색의 경우 원하는 값을 찾기 위해 배열을 하나하나 확인해야한다.
@@ -72,17 +72,32 @@ ex) 배열, 스택, 큐, 연결 리스트(linked list)
 * 각 노드에는 __데이터 필드__ 와 다음 노드에 대한 __참조(링크)__ 가 포함되어있음.
 * 배열과 달리 연결된 다음 요소는 인접한 위치에 저장되지 않음.
 
-### Linked List(연결 리스트)의 특성
+#### Linked List(연결 리스트)의 특성
 * __노드__ : 연결 리스트의 각 요소는 두 가지 구성 요소를 가짐.
   * __데이터__ : 요소와 관련된 실제 데이터
   * __다음 포인터(링크)__ : 연결 리스트의 다음 노드에 대한 포인터 혹은 참조
 * __head__ : 연결 리스트의 첫 번째 노드를 "head(헤드)"라고 지칭. 순회를 위한 시작점.
 * __tail__ : 연결 리스트의 마지막 노드를 "tail(꼬리)"라고 지칭.
 
-### Linked List(연결 리스트의) 유형
-* __Singly Linked List (단일 연결 리스트)__ : 연결 리스트에서 모든 노드는 다음 노드의 주소 또는 참조를 저장하고 마지막 노드는 다음 주소 또는 참조를 NULL값을 가짐.
+#### Linked List(연결 리스트의) 유형
+* __Singly Linked List (단일 연결 리스트)__ : 단일 연결 리스트에서 모든 노드는 다음 노드의 주소 또는 참조를 저장하고 마지막 노드는 다음 주소 또는 참조를 NULL값을 가짐.
 
 ![단일 연결 리스트](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200922124319/Singly-Linked-List1.png )
+
+* __Doubly  Linked List (이중 연결 리스트)__ : 이중 연결 리스트에는 각각 이전 노드, 다음 노드를 가리키는 포인터를 가리킴. 이 특성 때문에 효율적인 탐색 가능.
+
+![이중 연결 리스트](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200922124412/Doubly-Linked-List.png)
+
+* __Circular Linked List (순환 연결 리스트)__ : 순환 연결 리스트는 단일 연결 리스트에서 첫 번째 노드와 마지막 노드도 서로 연결되어 있는 형태로, 끝에 NULL값이 없음.
+
+![이중 연결 리스트](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200922124456/Circular-Linked-List.png)
+
+#### Linked List(연결리스트)의 operation(작업)
+* 요소 엑세스 : 연결 리스트의 톡정 요소에 액세스하는데 O(n)의 시간이 걸림. 노드가 연속되지 않은 위치에 저장되어 랜덤된 위치의 요소에 바로 접근하는게 불가능하기 때문.
+* 검색 : 연결 리스트에서 노드를 검색하는데 최악의 경우 전체를 탐색해야 하므로 O(n)의 시간이 걸림.
+* 삽입, 삭제 : 삽입 또는 삭제해야 하는 위치를 알고 있는 경우에 O(1)의 시간이 걸림.
+![연결 리스트 시간 복잡도](https://i.stack.imgur.com/bWD4U.png)
+( [참고링크](https://stackoverflow.com/questions/73019767/time-complexity-of-linkedlist-in-dart))
   
 
 
