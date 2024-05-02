@@ -96,6 +96,7 @@ ex) 배열, 스택, 큐, 연결 리스트(linked list)
 * 요소 엑세스 : 연결 리스트의 톡정 요소에 액세스하는데 O(n)의 시간이 걸림. 노드가 연속되지 않은 위치에 저장되어 랜덤된 위치의 요소에 바로 접근하는게 불가능하기 때문.
 * 검색 : 연결 리스트에서 노드를 검색하는데 최악의 경우 전체를 탐색해야 하므로 O(n)의 시간이 걸림.
 * 삽입, 삭제 : 삽입 또는 삭제해야 하는 위치를 알고 있는 경우에 O(1)의 시간이 걸림.
+
 ![연결 리스트 시간 복잡도](https://i.stack.imgur.com/bWD4U.png)
 ( [참고링크](https://stackoverflow.com/questions/73019767/time-complexity-of-linkedlist-in-dart))
   
