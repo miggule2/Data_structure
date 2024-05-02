@@ -41,13 +41,13 @@ ex) 배열, 스택, 큐, 연결 리스트(linked list)
 
 ![배열](https://media.geeksforgeeks.org/wp-content/uploads/Arrays-1.png)
 
-#### Array(배열)의 특성
+### Array(배열)의 특성
 * 배열은 index 기반 자료구조로, index를 이용해서 각 요소를 쉽고 빠르게 찾을 수 있음.
 * 동일한 타입의 데이터를 여러 개 저장하는 경우에 효율적으로 활용 가능
 * 2차원 배열같은 고차원 배열에 저장하여 복잡한 데이터 구조를 처리할 수 있음.
 * 스택, 큐, 힙, 해시 테이블 등과 같은 다른 자료구조를 구현하는 데에도 사용
 
-#### Array(배열) 유형 :
+### Array(배열) 유형 :
 * __1차원 배열__ : 동일한 데이터 타입의 요소로 구성된 배열의 가장 간단한 형태의 배열. 단일 인덱스를 사용해서 접근
 
 ![1차원배열](https://media.geeksforgeeks.org/wp-content/uploads/20230922132730/1Darray.png)
