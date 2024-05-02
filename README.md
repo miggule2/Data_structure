@@ -84,9 +84,11 @@ ex) 배열, 스택, 큐, 연결 리스트(linked list)
 
 ![단일 연결 리스트](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200922124319/Singly-Linked-List1.png )
 
+
 * __Doubly  Linked List (이중 연결 리스트)__ : 이중 연결 리스트에는 각각 이전 노드, 다음 노드를 가리키는 포인터를 가리킴. 이 특성 때문에 효율적인 탐색 가능.
 
 ![이중 연결 리스트](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200922124412/Doubly-Linked-List.png)
+
 
 * __Circular Linked List (순환 연결 리스트)__ : 순환 연결 리스트는 단일 연결 리스트에서 첫 번째 노드와 마지막 노드도 서로 연결되어 있는 형태로, 끝에 NULL값이 없음.
 
